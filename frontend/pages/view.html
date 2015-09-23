@@ -1,0 +1,19 @@
+<ul class='animal-list' ng-hide='parent'>
+	<li ng-model='animalList' ng-repeat='animal in animals' ng-click="showProfile(animal)">
+		<a href="">{{animal.name}} : {{animal.kind}}</a>
+	</li>
+</ul>
+<div>
+	<ul class="animal-list" ng-show='list'>
+	  <li>
+	    Name: {{info.name}}<br>
+	    Age: {{info.age}}<br>
+	    Species: {{info.kind}}<br>
+	    Breed: {{info.variety}}<br>
+	    Gender: {{info.gender}}<br>
+	    Description: {{info.description}}<br>
+	    <button ng-click="collect()">collect</button>
+	    <button ng-click="toggle()">ignore</button>
+	  </li>
+	</ul>
+</div>

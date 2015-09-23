@@ -1,0 +1,56 @@
+@font-face {
+	font-family: myFirstFont;
+	src: url(furry.ttf);
+}
+body {
+	background-image: url('palace.jpg');
+	background-size: 100%;
+	font-family: myFirstFont;
+}
+.navbar {
+	background-color: rgba(255,255,255, 0.5);
+		font-size: 1.5em;
+}
+.navbar-brand, .nav, .nav-bar {
+	font-size: 1.5em;
+}
+h1, button{
+	font-family: myFirstFont;
+	font-size: 1.5em;
+}
+li {
+	list-style: none;
+}
+.jumbotron{
+	border-radius: 25px;
+	background-color: rgba(255,255,255, 0.5);
+	max-width: 75%;
+	margin: 0px auto;
+}
+form {
+	max-width: 50%;
+	margin:0px auto;
+}
+.form-control {
+	height: 50px;
+	font-size: 1.5em;
+}
+.jumbotron .form-control {
+	font-size: 1em;
+}
+a {
+	color: #544F4F;
+}
+.animal-list {
+	margin: 20px;
+	font-size: 3em;
+	background-color: rgba(255,255,255, 0.5);
+	font-family: myFirstFont;
+	padding-bottom: 5px;
+	border-radius: 10px;
+	color: #544F4F;
+}
+.animal-list button{
+	font-size: 1em;
+}
+

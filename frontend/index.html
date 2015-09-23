@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="style.css">
+	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.5/angular.js"></script>
+	     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.min.js"></script>
+
+	<title>Exotic Pet Palace</title>
+</head>
+<body ng-app= "petPalace">
+	<header>
+            <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#" ui-sref="home">Exotic Pet Palace</a>
+                </div>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#" ui-sref="home"></i>Home</a></li>
+                    <li><a href="#" ui-sref="viewPets">Browse</a></li>
+                    <li><a href="#" ui-sref="abandonPet">Abandon Pet</a></li>
+                </ul>
+            </div>
+            </nav>
+        </header>
+         <div id="main">
+
+            <div ui-view></div>
+
+        </div>
+	<script src='index.js'></script>
+</body>
+</html>
